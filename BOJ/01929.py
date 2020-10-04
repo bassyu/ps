@@ -6,5 +6,6 @@ for i in range(2, n_l//2):
 
 M, N = map(int, input().split())
 l = [i for i in range(M, N+1) if l[i]]
+
 for i in l:
     print(i)
