@@ -4,4 +4,4 @@ class Solution:
         for num in nums[2:]:
             dp.append(num + max(dp[-2], dp[-3]))
         
-        return max(dp)
+        return max(dp[-2:])
