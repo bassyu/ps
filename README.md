@@ -7,3 +7,6 @@
 - <a href="https://subinium.github.io/how-to-study-problem-solving/">
     subinium
   <a/>
+- <a href="https://blog.naver.com/kks227/220769870195">
+    kks227
+  <a/>
