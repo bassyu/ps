@@ -10,6 +10,6 @@
 - <a href="https://blog.naver.com/kks227/220769870195">
     kks227
   <a/>
-- <a href="https://cafe.naver.com/startdevelopercareer">
-    알고리즘 추천 50문제
+- <a href="https://cafe.naver.com/startdevelopercareer/6">
+    판교가는길
   <a/>
