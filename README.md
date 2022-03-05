@@ -2,7 +2,7 @@
 
 ### 📝 해설 기록
 - <a href="https://bassyu.tistory.com/category/PS">
-    
+    bassyu
   </a>
 
 ### 🤓 도움받은 글
