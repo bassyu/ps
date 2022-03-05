@@ -1,6 +1,6 @@
 # Problem Solving
 
-### 📝 해설 기록
+### 📝 블로그
 - <a href="https://bassyu.tistory.com/category/PS">
     bassyu
   </a>
