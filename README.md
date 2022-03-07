@@ -15,6 +15,9 @@
 - <a href="https://blog.naver.com/kks227/220769870195">
     kks227
   <a/>
+- <a href="https://ryute.tistory.com/33">
+    ryute
+  <a/>
 - <a href="https://cafe.naver.com/startdevelopercareer/6">
     판교가는길
   <a/>
