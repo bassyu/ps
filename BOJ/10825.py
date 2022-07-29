@@ -4,7 +4,7 @@ input()
 l = []
 for line in sys.stdin:
     name, kor, eng, math = line.split()
-    l.append((name, int(kor), int(eng), int(math)))
+    l.append((-int(kor), int(eng), -int(math), name))
 
-for name, _, _, _ in sorted(l, key=lambda x: (-x[1], x[2], -x[3], x[0])):
+for _, _, _, name in sorted(l):
     print(name)
