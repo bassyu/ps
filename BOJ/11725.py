@@ -9,14 +9,12 @@ for _ in range(N-1):
     graph[b].append(a)
 
 stack = [1]
-visited = {1}
-answers = [0] * (N+1)
+answer = [False] * (N+1)
 while stack:
     node = stack.pop()
     for child in graph[node]:
-        if child not in visited:
+        if not answer[child]:
             stack.append(child)
-            visited.add(child)
-            answers[child] = str(node)
+            answer[child] = str(node)
 
-print('\n'.join(answers[2:]))
+print('\n'.join(answer[2:]))
