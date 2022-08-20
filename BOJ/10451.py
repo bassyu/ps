@@ -15,8 +15,7 @@ for _ in range(int(read())):
             node = stack.pop()
             visited.add(node)
             go = graph[node]
-            if go in visited:
-                continue
-            stack.append(go)
+            if not go in visited:
+                stack.append(go)
 
     print(count)
