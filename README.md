@@ -1,5 +1,7 @@
 # Problem Solving
 
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=y1346130)](https://solved.ac/y1346130)
+
 ### 📝 블로그
 - <a href="https://bassyu.tistory.com/category/PS">
     bassyu
