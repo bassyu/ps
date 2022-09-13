@@ -17,9 +17,7 @@ def get_nexts(s):
         if y in range(3) and x in range(3):
             l = list(s)
             go = y*3+x
-            temp = l[go]
-            l[go] = l[i]
-            l[i] = temp
+            l[i], l[go] = l[go], l[i]
             nexts.append(''.join(l))
 
     return nexts
