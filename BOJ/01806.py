@@ -1,14 +1,14 @@
 N, S = map(int, input().split())
 l = [int(i) for i in input().split()]
-prefix, j, answer = 0, 0, float('inf')
-for i in range(N):
-    while prefix < S and j < N:
-        prefix += l[j]
-        j += 1
+prefix, right, answer = 0, 0, float('inf')
+for left in range(N):
+    while prefix < S and right < N:
+        prefix += l[right]
+        right += 1
 
     if prefix >= S:
-        answer = min(answer, j-i)
+        answer = min(answer, right-left)
 
-    prefix -= l[i]
+    prefix -= l[left]
 
 print(answer if answer != float('inf') else 0)
