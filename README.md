@@ -18,6 +18,3 @@
 - <a href="https://ryute.tistory.com/33">
     ryute
   </a>
-- <a href="https://cafe.naver.com/startdevelopercareer/6">
-    판교가는길
-  </a>
