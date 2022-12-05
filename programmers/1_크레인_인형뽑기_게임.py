@@ -7,7 +7,8 @@ def solution(board, moves):
                 
     stack = [0]
     answer = 0
-    for m-1 in moves:
+    for m in moves:
+        m -= 1
         if columns[m]:
             p = columns[m].pop()
             if stack[-1] == p:
