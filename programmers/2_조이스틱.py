@@ -15,6 +15,6 @@ def solution(name):
             for c in map(ord, n):
                 col_move += min(c - 65, 91 - c)
             
-            answer = min(m, row_move + col_move)
+            answer = min(answer, row_move + col_move)
             
     return answer
