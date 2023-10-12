@@ -18,3 +18,7 @@
 - <a href="https://ryute.tistory.com/33">
     ryute
   </a>
+
+---
+
+[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=y1346130)](https://solved.ac/profile/y1346130)
